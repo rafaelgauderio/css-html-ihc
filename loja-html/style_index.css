@@ -49,7 +49,7 @@ html {
 
 #menu {
     text-align: center;
-    background-image: linear-gradient(to bottom, #5CA47A 50%, #25335D);   
+    background-image: linear-gradient(to bottom, #5CA47A 50%, #5CA47A);   
     padding: 12px;
     font-family: Carter one, arial;
     
@@ -338,10 +338,6 @@ ul.top-menu>li>ul>li {
 
 }
 
-
-
-
-
 #contato {
     
     padding: 20px;
@@ -475,13 +471,10 @@ ul.top-menu>li>ul>li {
   border-radius: 40px;
   padding: 10px;
   box-shadow: 4px 4px 4px 4px blue;
-  margin: 20px;
+  margin-left: 35px;
+  margin-bottom: 20px;
   transition:  1.0s;
-
   
-}
-  
-  transition: 1.0s;
 }
 
 .botao-busca {  
@@ -528,7 +521,7 @@ ul.top-menu>li>ul>li {
 }
 
 .area-busca:hover > .botao-busca  {
-  background: #b33829;
+  background: blue;
   color: #fff
 }
 

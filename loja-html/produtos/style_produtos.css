@@ -147,9 +147,6 @@ a {
     font-size: 16px;
     color: white;
     border: 0;
-
-
-
 }
 
 .botoes-produto a {
@@ -227,7 +224,7 @@ a {
     padding-right: 20px;
     text-align: right;
     line-height: 30px;
-    background-color: black;
+    background-color: #5CA47A;
 }
 
 
