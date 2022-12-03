@@ -14,14 +14,14 @@ html {
 #grid-display {
     display: grid;
     grid-template-columns: 220px auto 200px;
-    grid-template-rows: 80px auto auto auto 50px;
+    grid-template-rows: 80px auto auto auto auto auto 50px;
     height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#header,#footer,#empresa,#contato {
+#header,#footer,#empresa,#contato, .gap {
     grid-column-start: 1;
     grid-column-end: 4;
     box-sizing: border-box;
@@ -333,6 +333,13 @@ ul.top-menu>li>ul>li {
 
 }
 
+.gap {
+    width: 100%;
+    height: 5px;
+    background-color: #5CA47A;
+}
+
+
 #contato h2 {
 	margin-top: -5px; 
 
@@ -364,6 +371,7 @@ ul.top-menu>li>ul>li {
     border: 2px solid black;    
 
 }
+
 
 
 
